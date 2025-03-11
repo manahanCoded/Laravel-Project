@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@vite('resources/css/app.css')
 @section('content')
     <h1>Edit Task</h1>
     <form action="{{ route('tasks.update', $task) }}" method="POST">

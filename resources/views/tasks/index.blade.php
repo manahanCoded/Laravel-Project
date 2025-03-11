@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@vite('resources/css/app.css')
 @section('content')
     <h1>Task List</h1>
     <a href="{{ route('tasks.create') }}">Create Task</a>

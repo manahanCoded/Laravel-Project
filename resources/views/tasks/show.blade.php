@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@vite('resources/css/app.css')
 @section('content')
     <h1>{{ $task->title }}</h1>
     <p>{{ $task->description }}</p>
